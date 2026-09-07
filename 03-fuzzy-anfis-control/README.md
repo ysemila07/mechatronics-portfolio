@@ -6,6 +6,7 @@ Two projects comparing classical and intelligent (fuzzy / neuro-fuzzy) control s
 MATLAB/Simulink simulation.
 
 ## Project 1 — PID vs Mamdani vs TSK/Sugeno on a DC motor
+
 Built a Mamdani fuzzy controller (using MATLAB's classic "tipper" restaurant-service example as the
 stepping-stone) and converted it to a TSK/Sugeno controller, then compared both against a
 conventional PID controller on a DC motor speed task, with and without load.
@@ -14,12 +15,16 @@ conventional PID controller on a DC motor speed task, with and without load.
 9.34% overshoot in both cases — though the fuzzy controllers likely had more tuning headroom than
 was explored.
 
+![Project 1 trajectory](figures/project1-trajectory.jpg)
+![Project 1 fuzzy control surface](figures/project1-surfaceview.jpg)
+
 - `stage1-pid/` — PID baseline models (with/without load)
 - `stage2-fis/` — Mamdani FIS files (tipper example → tipper_final)
 - `stage3-fuzzy-motor/` — Mamdani fuzzy controller applied to the motor
 - `stage4-tsk-motor/` — TSK/Sugeno controller applied to the motor
 
 ## Project 2 — Simulated mobile-robot obstacle avoidance: Fuzzy vs ANFIS
+
 A simulated (not physical) mobile robot navigating around obstacles, comparing a hand-built Mamdani
 fuzzy controller against a trained ANFIS controller. Both take ultrasonic distance + obstacle-location
 inputs and output differential wheel speeds.
@@ -28,10 +33,10 @@ inputs and output differential wheel speeds.
 positions/angles. ANFIS gave smoother, noise-filtered motion but took a longer route to the
 target — a quantified trade-off between smoothness and directness.
 
+![Project 2 trajectory](figures/project2-trajectory.jpg)
+![Project 2 fuzzy control surface (left wheel)](figures/project2-surfaceview-vl.png)
+![Project 2 fuzzy control surface (right wheel)](figures/project2-surfaceview-vr.png)
+![ANFIS training](figures/project2-anfis-training.png)
+
 - `project2-anfis-obstacle-avoidance/` — trained ANFIS models (`anfisvl400.fis`, `anfisvr400.fis`) and
   the fuzzy controller (`fuzzyrobot.fis`)
-
-## Visual assets
-Simulation plots exist in the original folder (trajectory plots, fuzzy control surfaces, ANFIS
-training screenshot) but weren't copied here — worth pulling into a LinkedIn post to illustrate the
-PID-vs-fuzzy-vs-ANFIS comparison.

@@ -22,9 +22,11 @@ Started from a target material-removal rate (1 cm³/s), which gives a required c
 **1.67 kW / 7.97 Nm** at maximum spindle speed, then sized the gearbox and belt drive to deliver
 that across the full 240–2000 RPM range.
 
-## Visual assets
+## Video
 
-`Detailed Design/Lathe Demo Video.mov` in the original folder is a CAD walkthrough/animation of the
-Inventor model — there's no physical build, so this is a design/CAD demo rather than footage of the
-lathe running. CAD files (.ipt/.iam assemblies) aren't included in this repo (binary, not
-git-friendly) — available on request or exportable as STEP files if needed for a portfolio site.
+`video/lathe-cad-demo.mov` — a walkthrough/animation of the finished Inventor model. This is a CAD
+demo, not footage of a physical machine — there's no physical build behind this project, only the
+completed design.
+
+CAD source files (.ipt/.iam assemblies) aren't included here (binary, not git-friendly) — available
+on request or exportable as STEP files if needed.
