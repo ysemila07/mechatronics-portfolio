@@ -22,6 +22,10 @@ Started from a target material-removal rate (1 cm³/s), which gives a required c
 **1.67 kW / 7.97 Nm** at maximum spindle speed, then sized the gearbox and belt drive to deliver
 that across the full 240–2000 RPM range.
 
+## Full report
+
+[`report/Final Report.pdf`](report/Final%20Report.pdf) — the complete detailed design report. The two spreadsheets behind the sizing numbers above are also included: [`report/Cutting Power Calculation.xlsx`](report/Cutting%20Power%20Calculation.xlsx) and [`report/Drilling Power Estimation Calculator.xlsx`](report/Drilling%20Power%20Estimation%20Calculator.xlsx).
+
 ## Video
 
 `video/lathe-cad-demo.mov` — a walkthrough/animation of the finished Inventor model. This is a CAD

@@ -23,6 +23,8 @@ was explored.
 - `stage3-fuzzy-motor/` — Mamdani fuzzy controller applied to the motor
 - `stage4-tsk-motor/` — TSK/Sugeno controller applied to the motor
 
+[`report/Project1 Report.pdf`](report/Project1%20Report.pdf) and [`report/Project1 PID vs Fuzzy Analysis.xlsx`](report/Project1%20PID%20vs%20Fuzzy%20Analysis.xlsx) have the full writeup and the raw comparison data behind the numbers above.
+
 ## Project 2 — Simulated mobile-robot obstacle avoidance: Fuzzy vs ANFIS
 
 A simulated (not physical) mobile robot navigating around obstacles, comparing a hand-built Mamdani

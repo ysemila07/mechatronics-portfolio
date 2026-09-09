@@ -27,6 +27,10 @@ A 15-storey building with central plant on Level 14: 2 air-cooled Carrier chille
 pumps, 2 hot-water pumps, ventilation fans, and tenancy occupancy relays. Observed a live
 chiller-fault troubleshooting session and studied wet/dry-pipe sprinkler activation.
 
+## Full report
+
+[`report/IMG Final Report.pdf`](report/IMG%20Final%20Report.pdf) — the full placement report covering all three pieces of work above.
+
 ## Visual assets
 
 The final report (`IMG Final Report.pdf`) has embedded site photos (kitchen exhaust system, 3M

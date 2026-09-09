@@ -20,6 +20,10 @@ evidence of a physical arm in the source material, and it should be described th
   both configurations were **full rank (3/3)**, confirming the arm stayed singularity-free
   throughout the task.
 
+## Full report
+
+[`report/Final Report.pdf`](report/Final%20Report.pdf) — the group's full report, *Automatic Assembly of a Mobile Robot*.
+
 ## Code
 
 - `code/kinematics.m`, `parameters.m` — forward kinematics and arm parameters
